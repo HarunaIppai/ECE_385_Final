@@ -1,0 +1,11 @@
+module twoinonecontroller(
+		input  logic 			PixelClk,
+		input  logic 			AudioClk,
+		input  logic			Play,
+		output logic [7:0]	CPRed,
+		output logic [7:0]	CPGreen,
+		output logic [7:0]	CPBlue,
+		output logic 			I2SOut,
+);
+
+endmodule

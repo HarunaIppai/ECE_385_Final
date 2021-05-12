@@ -1,0 +1,12 @@
+module audioController(
+	input  logic 			sampleClk,
+	input  logic 			Reset,
+	input  logic 			LRClk,
+	input  logic [31:0]	DataInL,
+	input  logic [31:0]	DataInR,
+	output logic			Read,
+	output logic 			DataOut,
+)
+	always_ff @ (posedge )
+	//dummy + 24bit + 7bitzero
+endmodule

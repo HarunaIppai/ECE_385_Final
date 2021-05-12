@@ -1,0 +1,7 @@
+How to Run the Code:
+1. Open the project in Quartus
+2. If the top level entity is not FinalProject, change it to FinalProject.sv
+3. Compile and program the FPGA
+4. Open NIOS II Eclipse Tool
+5. Import the code and run the program using standard DE-10 configuration
+6. The program will automatically start. Enjoy!
